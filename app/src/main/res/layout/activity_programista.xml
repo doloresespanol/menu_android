@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProgramistaActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Programista"
+        android:layout_gravity="center"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/programista"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="Programista to osoba, która zajmuje się tworzeniem kodów programów i aplikacji. Konkretny zakres obowiązków zależy od specjalizacji danego pracownika. Wymaga to umiejętności programowania w jednym lub kilku językach programowania, a także znajomości narzędzi i technologii związanych z branżą IT. Zawód ten przynosi bardzo dobre zarobki i jest niezbędny w dużej liczbie przedsiębiorstw."
+        />
+
+</LinearLayout>
